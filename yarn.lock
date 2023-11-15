@@ -4602,6 +4602,15 @@ ember-load-initializers@^2.1.2:
     ember-cli-babel "^7.13.0"
     ember-cli-typescript "^2.0.2"
 
+ember-logging@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/ember-logging/-/ember-logging-0.0.2.tgz#c6245efbd2d7400e70663137fecb9aa85125828a"
+  integrity sha512-UmVdLROqp04WMYEXrnUWSrqLUmFD4kpcQPXhroGXNzXdJqvlIHGXnZec+cPJIruOUw6aIF/TbF984rEgh6li9Q==
+  dependencies:
+    "@babel/core" "^7.23.2"
+    ember-cli-babel "^8.2.0"
+    ember-cli-htmlbars "^6.3.0"
+
 ember-page-title@^8.0.0:
   version "8.1.0"
   resolved "https://registry.yarnpkg.com/ember-page-title/-/ember-page-title-8.1.0.tgz#fd3e5b1547ae9e1d775cc225307aeeb51b01aae7"
