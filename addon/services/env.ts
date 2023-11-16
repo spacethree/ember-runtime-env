@@ -19,6 +19,8 @@ export default class EnvService extends Service {
 
   async initialize(): Promise<void> {
     this.vars = (await this.shget('runtime-env', async () => {
+      // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+      //@ts-ignore
       return ENV;
     })) as Record<string, string | undefined>;
     this.logger.debug('runtime-env: variables loaded', this.vars);
