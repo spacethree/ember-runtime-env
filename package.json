@@ -5,7 +5,7 @@
   "keywords": [
     "ember-addon"
   ],
-  "repository": "",
+  "repository": "https://github.com/spacethree/ember-runtime-env",
   "license": "MIT",
   "author": "",
   "typesVersions": {
@@ -85,6 +85,7 @@
     "@typescript-eslint/eslint-plugin": "^6.9.1",
     "@typescript-eslint/parser": "^6.9.1",
     "broccoli-asset-rev": "^3.0.0",
+    "camelcase": "^8.0.0",
     "concurrently": "^8.2.2",
     "ember-auto-import": "^2.6.3",
     "ember-cli": "~5.4.0",
@@ -94,6 +95,7 @@
     "ember-cli-sri": "^2.1.1",
     "ember-cli-terser": "^4.0.2",
     "ember-load-initializers": "^2.1.2",
+    "ember-logging": "^0.0.5",
     "ember-page-title": "^8.0.0",
     "ember-qunit": "^8.0.1",
     "ember-resolver": "^11.0.1",
@@ -107,6 +109,7 @@
     "eslint-plugin-n": "^16.2.0",
     "eslint-plugin-prettier": "^5.0.1",
     "eslint-plugin-qunit": "^8.0.1",
+    "lerna-changelog": "^2.2.0",
     "loader.js": "^4.7.0",
     "prettier": "^3.0.3",
     "qunit": "^2.20.0",
